@@ -1,0 +1,17 @@
+Designator,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,JLCPCB Part #
+"Battery1,Extra1,Out1",3,Header,,,,HDR-TH_2P-P2.54-V-M,C52016390
+"C1,C2",2,1μF,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C28323
+C3,1,0.1μF,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C49678
+D1,1,LED,,,,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C2296
+D2,1,LED,,,,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C2297
+D3,1,SS34,,,,easyeda2kicad:SMA_L4.3-W2.6-LS5.2-RD,C8678
+J1,1,USB_C_Receptacle_PowerOnly_6P,,,,easyeda2kicad:USB-C-SMD,C7507406
+Q1,1,FS8205A,,,,Package_TO_SOT_SMD:SOT-23-6,C2830320
+Q2,1,AO3415A,,,,easyeda2kicad:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR,C5350990
+"R1,R5",2,1k,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17513
+R2,1,10k,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17414
+R6,1,100,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17408
+"R_CC1,R_CC2",2,5.1k,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C27834
+R_PROG1,1,1.2k,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17379
+U2,1,DW01,,,,Package_TO_SOT_SMD:SOT-23-6,C917079
+U3,1,TP4056-42-ESOP8,,,,Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias,C382139
