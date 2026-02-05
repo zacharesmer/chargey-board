@@ -4314,124 +4314,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:HXPH254-01-02-Z-L11.5MALEHEADERCONNECTOR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "HX PH254-01-02-Z-L11.5 MALE HEADER CONNECTOR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:HDR-TH_2P-P2.54-V-M"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C52016390"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HXPH254-01-02-Z-L11.5MALEHEADERCONNECTOR_0_1"
-				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -1.27 2.54)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -4690,6 +4572,12 @@
 		(uuid "43f7a518-6da7-423b-9969-8df9f2c1a921")
 	)
 	(junction
+		(at 55.88 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "455db7fb-90a3-4578-8033-2573f18f1967")
+	)
+	(junction
 		(at 123.19 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4846,16 +4734,8 @@
 		(uuid "623d33d4-8e1e-4069-86ab-68fa3288480d")
 	)
 	(no_connect
-		(at 175.26 107.95)
-		(uuid "625f4392-9c7b-4b5e-9da8-30efad457ed1")
-	)
-	(no_connect
 		(at 265.43 142.24)
 		(uuid "630d39ca-adb0-481a-8d0a-3c601ad8ddc1")
-	)
-	(no_connect
-		(at 175.26 105.41)
-		(uuid "6c69671a-60ef-4ea9-bf54-f64c6d743f37")
 	)
 	(no_connect
 		(at 219.71 111.76)
@@ -4910,6 +4790,10 @@
 		(uuid "b3c0de22-0ad0-40f3-8ca6-808dcee4df3a")
 	)
 	(no_connect
+		(at 172.72 93.98)
+		(uuid "b795336b-431d-44d6-adc1-74a1c8a0c0bc")
+	)
+	(no_connect
 		(at 219.71 132.08)
 		(uuid "c2054eb2-9768-4602-b768-30998e46c0a4")
 	)
@@ -4942,6 +4826,10 @@
 		(uuid "dab93284-fa3d-457c-9ca1-a2c80f8e43fe")
 	)
 	(no_connect
+		(at 172.72 96.52)
+		(uuid "eb050ea1-993f-4c2a-adcc-22f1e116f21a")
+	)
+	(no_connect
 		(at 265.43 127)
 		(uuid "f7eecdb6-1628-4b5e-9533-31ef381a64fa")
 	)
@@ -4954,6 +4842,16 @@
 			(type default)
 		)
 		(uuid "03a12d2d-5db0-4b1e-9c84-7fb5e1712b84")
+	)
+	(wire
+		(pts
+			(xy 58.42 146.05) (xy 58.42 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0656bd62-b62f-43c7-8b81-64e296089fbf")
 	)
 	(wire
 		(pts
@@ -5347,16 +5245,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 146.05) (xy 58.42 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cabc249-de08-49da-b9f9-03ebc2fb581b")
-	)
-	(wire
-		(pts
 			(xy 80.01 114.3) (xy 86.36 114.3)
 		)
 		(stroke
@@ -5364,6 +5252,16 @@
 			(type default)
 		)
 		(uuid "6e39c90b-f370-4dc8-acd4-15956769d029")
+	)
+	(wire
+		(pts
+			(xy 59.69 194.31) (xy 59.69 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70927e30-b489-4bd8-a314-f4f548b54795")
 	)
 	(wire
 		(pts
@@ -5464,6 +5362,16 @@
 			(type default)
 		)
 		(uuid "818fd4d2-67da-473a-bdf6-a6792ec7db04")
+	)
+	(wire
+		(pts
+			(xy 59.69 193.04) (xy 55.88 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85db3782-ab30-4058-a4f1-9fc44d814488")
 	)
 	(wire
 		(pts
@@ -6338,85 +6246,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:HXPH254-01-02-Z-L11.5MALEHEADERCONNECTOR")
-		(at 180.34 106.68 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "05284ea1-5dbd-4d25-b3d6-e86dd65c19e7")
-		(property "Reference" "Extra1"
-			(at 184.15 107.9501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Header"
-			(at 184.15 105.4101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:HDR-TH_2P-P2.54-V-M"
-			(at 180.34 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C52016390"
-			(at 180.34 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f4f309d-f344-4c80-9c5e-c66221897727")
-		)
-		(pin "2"
-			(uuid "43efaeab-e464-48c4-8bbe-5eb64abe7c0e")
-		)
-		(instances
-			(project "battery-charging-experimentation"
-				(path "/b3c17f7d-b127-4261-827c-183ca4717040"
-					(reference "Extra1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 119.38 172.72 270)
 		(unit 1)
@@ -6468,7 +6297,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17379"
+		(property "LCSC Part" "C25862"
 			(at 119.38 172.72 90)
 			(effects
 				(font
@@ -6563,7 +6392,7 @@
 		(at 55.88 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -6586,7 +6415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 54.102 187.96 90)
 			(effects
 				(font
@@ -6613,7 +6442,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C27834"
+		(property "LCSC Part" "C25905"
 			(at 55.88 187.96 0)
 			(effects
 				(font
@@ -6662,7 +6491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 83.82 170.18 0)
 			(effects
 				(font
@@ -6839,7 +6668,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17513"
+		(property "LCSC Part" "C11702"
 			(at 60.96 172.72 90)
 			(effects
 				(font
@@ -7022,7 +6851,7 @@
 		(at 45.72 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board no)
 		(dnp yes)
 		(uuid "43fca606-b442-4166-9b89-72d061e99ddd")
@@ -7044,7 +6873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 43.942 187.96 90)
 			(effects
 				(font
@@ -7071,7 +6900,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C27834"
+		(property "LCSC Part" "C25905"
 			(at 45.72 187.96 0)
 			(effects
 				(font
@@ -7147,7 +6976,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17408"
+		(property "LCSC Part" "C25076"
 			(at 116.84 114.3 90)
 			(effects
 				(font
@@ -7166,6 +6995,72 @@
 			(project ""
 				(path "/b3c17f7d-b127-4261-827c-183ca4717040"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59a9f854-7304-4092-ae9a-43396e76e3d6")
+		(property "Reference" "#PWR07"
+			(at 59.69 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78458e06-fafb-40c6-8333-4d96c8ec7701")
+		)
+		(instances
+			(project "battery-charging-experimentation"
+				(path "/b3c17f7d-b127-4261-827c-183ca4717040"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7480,7 +7375,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" "C1525"
 			(at 109.22 107.95 0)
 			(effects
 				(font
@@ -7802,7 +7697,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C28323"
+		(property "LCSC Part" "C52923"
 			(at 132.08 171.45 0)
 			(effects
 				(font
@@ -7946,7 +7841,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C28323"
+		(property "LCSC Part" "C52923"
 			(at 86.36 153.67 0)
 			(effects
 				(font
@@ -8194,7 +8089,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17513"
+		(property "LCSC Part" "C11702"
 			(at 80.01 119.38 90)
 			(effects
 				(font
@@ -8635,6 +8530,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 177.8 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e04027fe-6cec-4fd0-b7e2-b331e5217b23")
+		(property "Reference" "Extra1"
+			(at 179.07 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 179.07 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ecbf3557-f243-4340-b03d-3c3ba1ae5dff")
+		)
+		(pin "1"
+			(uuid "ed2c7996-7f2e-4be1-9514-1936a59ee95a")
+		)
+		(instances
+			(project "battery-charging-experimentation"
+				(path "/b3c17f7d-b127-4261-827c-183ca4717040"
+					(reference "Extra1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 149.86 151.13 90)
 		(unit 1)
@@ -8802,7 +8767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 74.93 172.72 0)
 			(effects
 				(font
