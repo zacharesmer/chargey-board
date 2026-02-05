@@ -6333,7 +6333,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17379"
+		(property "LCSC Part" "C25862"
 			(at 119.38 172.72 90)
 			(effects
 				(font
@@ -6478,7 +6478,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C27834"
+		(property "LCSC Part" "C25905"
 			(at 55.88 187.96 0)
 			(effects
 				(font
@@ -6527,7 +6527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 83.82 170.18 0)
 			(effects
 				(font
@@ -6704,7 +6704,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17513"
+		(property "LCSC Part" "C11702"
 			(at 60.96 172.72 90)
 			(effects
 				(font
@@ -6936,7 +6936,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C27834"
+		(property "LCSC Part" "C25905"
 			(at 45.72 187.96 0)
 			(effects
 				(font
@@ -7012,7 +7012,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17408"
+		(property "LCSC Part" "C25076"
 			(at 116.84 114.3 90)
 			(effects
 				(font
@@ -7411,7 +7411,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" "C1525"
 			(at 109.22 107.95 0)
 			(effects
 				(font
@@ -7733,7 +7733,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C28323"
+		(property "LCSC Part" "C52923"
 			(at 132.08 171.45 0)
 			(effects
 				(font
@@ -7877,7 +7877,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C28323"
+		(property "LCSC Part" "C52923"
 			(at 86.36 153.67 0)
 			(effects
 				(font
@@ -8125,7 +8125,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17513"
+		(property "LCSC Part" "C11702"
 			(at 80.01 119.38 90)
 			(effects
 				(font
@@ -8803,7 +8803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 74.93 172.72 0)
 			(effects
 				(font
