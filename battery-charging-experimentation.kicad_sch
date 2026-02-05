@@ -6290,7 +6290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bff3c45-5824-41fb-8e2f-839779002410")
-		(property "Reference" "R_PR1"
+		(property "Reference" "RP1"
 			(at 118.872 177.8 90)
 			(effects
 				(font
@@ -6351,7 +6351,7 @@
 		(instances
 			(project "battery-charging-experimentation"
 				(path "/b3c17f7d-b127-4261-827c-183ca4717040"
-					(reference "R_PR1")
+					(reference "RP1")
 					(unit 1)
 				)
 			)
@@ -6433,7 +6433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12022318-ba8e-47fc-a407-593a500c74c6")
-		(property "Reference" "R_CC1"
+		(property "Reference" "RCC1"
 			(at 58.42 186.6899 0)
 			(effects
 				(font
@@ -6496,7 +6496,7 @@
 		(instances
 			(project "battery-charging-experimentation"
 				(path "/b3c17f7d-b127-4261-827c-183ca4717040"
-					(reference "R_CC1")
+					(reference "RCC1")
 					(unit 1)
 				)
 			)
@@ -6891,7 +6891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43fca606-b442-4166-9b89-72d061e99ddd")
-		(property "Reference" "R_CC2"
+		(property "Reference" "RCC2"
 			(at 48.26 186.6899 0)
 			(effects
 				(font
@@ -6954,7 +6954,7 @@
 		(instances
 			(project ""
 				(path "/b3c17f7d-b127-4261-827c-183ca4717040"
-					(reference "R_CC2")
+					(reference "RCC2")
 					(unit 1)
 				)
 			)
@@ -8687,7 +8687,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17414"
+		(property "LCSC Part" "C25744"
 			(at 149.86 151.13 90)
 			(effects
 				(font
